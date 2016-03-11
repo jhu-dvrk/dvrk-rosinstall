@@ -1,0 +1,11 @@
+- git: {version: 1.0.6, local-name: cisst, uri: 'https://github.com/jhu-cisst/cisst.git'}
+- git: {version: master, local-name: cisstNetlib, uri: 'https://github.com/jhu-cisst/cisstNetlib.git'}
+- git: {version: 1.2.0, local-name: sawRobotIO1394, uri: 'https://github.com/jhu-saw/sawRobotIO1394.git'}
+- git: {version: 1.2.0, local-name: sawControllers, uri: 'https://github.com/jhu-saw/sawControllers.git'}
+- git: {version: 1.0.2, local-name: sawKeyboard, uri: 'https://github.com/jhu-saw/sawKeyboard.git'}
+- git: {version: 1.0.2, local-name: sawTextToSpeech, uri: 'https://github.com/jhu-saw/sawTextToSpeech.git'}
+- git: {version: 1.0.1, local-name: sawConstraintController, uri: 'https://github.com/jhu-saw/sawConstraintController.git'}
+- git: {version: 1.2.0, local-name: sawIntuitiveResearchKit, uri: 'https://github.com/jhu-dvrk/sawIntuitiveResearchKit.git'}
+- git: {version: 1.1.0, local-name: cisst-ros, uri: 'https://github.com/jhu-cisst/cisst-ros.git'}
+- git: {version: 1.1.1, local-name: dvrk-ros, uri: 'https://github.com/jhu-dvrk/dvrk-ros.git'}
+
