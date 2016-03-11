@@ -48,6 +48,21 @@ Build as usual
 catkin build 
 ```
 
+Update release (e.g. upgrade from 1.2.0 to 1.3.0)
+```bash
+# fetch new tag from repo
+cd cd /path/to/catkinws/dvrk-rosinstall
+git fetch
+
+# checkout 1.3.0
+git checkout 1.3.0
+
+# merge & update (select yes to replace current rosinstall)
+cd /path/to/catkinws/src
+wstool merge /path/to/catkinws/dvrk-rosinstall/dvrk.rosinstall
+wstool update
+```
+
 
 ## Reference
 - wstool: http://wiki.ros.org/wstool 
